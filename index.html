@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="display">
+            <input type="text" id="result" disabled>
+        </div>
+
+        <div class="button">
+            <button onclick="clearResult()">AC</button>
+            <button onclick="deleteResult()">DEL</button>
+            <button onclick="insertValue('%')">%</button>
+            <button onclick="insertValue('/')">/</button>
+            <button onclick="insertValue('7')">7</button>
+            <button onclick="insertValue('8')">8</button>
+            <button onclick="insertValue('9')">9</button>
+            <button onclick="insertValue('*')">*</button>
+            <button onclick="insertValue('4')">4</button>
+            <button onclick="insertValue('5')">5</button>
+            <button onclick="insertValue('6')">6</button>
+            <button onclick="insertValue('-')">-</button>
+            <button onclick="insertValue('1')">1</button>
+            <button onclick="insertValue('2')">2</button>
+            <button onclick="insertValue('3')">3</button>
+            <button onclick="insertValue('+')">+</button>
+            <button onclick="insertValue('0')">00</button>
+            <button onclick="insertValue('0')">0</button>
+            <button onclick="insertValue('.')">.</button>
+            <button class="eg" onclick="calculate()">=</button>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
